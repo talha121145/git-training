@@ -1,0 +1,10 @@
+These are the commands that is needed initially to setup Github
+
+1. git config --global user.email "YOUR EMAIL"             -> Set your github email address globally
+2. git config --global user.name "YOUR GITHUB USERNAME"    -> Set your github username globally
+3. git init                                                -> Initialize Git Version technology on your root folder
+4. git add .                                               -> Add all files to the list to push to the remote
+5. git commit -m "Your Message"                            -> You have to commit the changes before pushing. its just a message or note about what changed 
+6. git remote add origin YOUR_ORIGIN_URL                   -> You will get this when you have created a repository
+7. git remote set-url origin YOUR_URL_WITH_TOKEN           -> You need to create an access token from the Developer settings
+8. git push origin master                                  -> Pushing your changes to the master branch of the origin
